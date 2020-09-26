@@ -155,4 +155,8 @@
     <loc>/contact/</loc>
   </url>
   
+  <url>
+    <loc>/blog/text/</loc>
+  </url>
+  
 </urlset>
