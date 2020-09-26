@@ -33,7 +33,7 @@ skill:
 experience:
   enable : true
   title : "Experience"
-   item: 
+  item: 
     - logo : "images/experience/icon-1.png"
       title : "Data Science Intern"
       company : "Softanbess Technologies Pvt. Ltd."
@@ -44,7 +44,7 @@ experience:
 education:
   enable : true
   title : "Education"
-item:
+  item:
     - title : "Bachelors in Statistics Honours"
       year : "2019-Present"
       academy : "Bethune College,Kolkata"
@@ -61,7 +61,7 @@ item:
 service:
   enable : true
   title : "Services"
- item:
+  item:
     - title : "Data Science"
       icon : "ti-stats-up"
       content : "I worked with Data Science tool R to solve different analysis problems."
