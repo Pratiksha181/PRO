@@ -20,6 +20,8 @@ Random forests or random decision forests are an ensemble learning method for cl
 ```{r echo=FALSE,out.width='75%',fig.align='center',fig.cap='Random Forest'}
 knitr::include_graphics('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwAm2GQeGQFvr4MkhidW57cC-nI4YQ0pFz0w&usqp=CAU')
 ```
+
+
 ### Algorithm of Random Forest
 
 
@@ -153,10 +155,10 @@ oob.values
 We can see that for varying the value of mtry from 1 to 8 the oob.values varied respectively . For better prediction of the model , we have to select that mtry value for which the model has the least error.rate.
 
 
-Since the error rate is low at mtry =4.
-Building final tree with most optimal customizations i.e., ntree=500, mtry=4 . 
+Since the error rate is low at mtry =2.
+Building final tree with most optimal customizations i.e., ntree=500, mtry=2 . 
 ```{r}
-model2 <- randomForest(Outcome ~ ., data = diabetes_data, ntree = 500, mtry = 4)
+model2 <- randomForest(Outcome ~ ., data = diabetes_data, ntree = 500, mtry = 2)
 print(model2)
 ```
 
