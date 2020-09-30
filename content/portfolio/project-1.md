@@ -1,13 +1,13 @@
 ---
 categories:
+- project
 - all
-- design
 client: Pratiksha Mandal
 date: "2019-05-12T12:14:34+06:00"
 description: This is meta description.
 draft: false
-image: images/blog/rd.jpg
-project_url:   https://pratiksha-mandal.shinyapps.io/text/
+image: images/portfolio/rd.jpg
+project_url: https://pratiksha-mandal.shinyapps.io/text/
 title: Prediction Using Random Forest in R
 ---
 
